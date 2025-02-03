@@ -212,7 +212,7 @@ Palm Paradise Hotel Management System is a comprehensive web-based application d
 2. **Database Setup**
 
    ```sql
-   CREATE DATABASE palmparadise;
+   CREATE DATABASE paradise;
    USE palmparadise;
    SOURCE paradise.sql;
    ```
