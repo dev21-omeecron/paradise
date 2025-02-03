@@ -1,0 +1,277 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fc;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header & Section Titles */
+h1,
+h2,
+h3 {
+    font-weight: bold;
+    color: #333;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.elegant-title {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.section-title {
+    font-size: 2rem;
+    color: #16a085;
+    margin-bottom: 2rem;
+}
+
+/* Parallax Header */
+.parallax-header {
+    position: relative;
+    background: url('<?= BASE_URL ?>/dist/img/paradise_pic.jpg') no-repeat center center;
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.parallax-header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.parallax-header .container {
+    position: relative;
+    z-index: 2;
+}
+
+.parallax-header .display-4 {
+    font-size: 3.5rem;
+    color: #fff;
+}
+
+.parallax-header .lead {
+    font-size: 1.25rem;
+    color: #fff;
+}
+
+/* About Us Section */
+.luxury-card {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.luxury-card:hover {
+    transform: translateY(-5px);
+}
+
+.luxury-card img {
+    border-radius: 15px;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.text-muted {
+    color: #7f8c8d;
+}
+
+.text-muted p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Core Values Section */
+.core-values {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+}
+
+.facility-icon {
+    font-size: 3rem;
+    color: #16a085;
+}
+
+h5 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    color: #2c3e50;
+}
+
+/* Facilities Section */
+.facilities-section img {
+    border-radius: 15px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+.facilities-section img:hover {
+    transform: scale(1.05);
+}
+
+.facilities-section h5 {
+    font-size: 1.75rem;
+    color: #16a085;
+    margin-top: 1rem;
+}
+
+.facilities-section p {
+    font-size: 1rem;
+    color: #7f8c8d;
+}
+
+/* Team Section */
+.team-section {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Team Section */
+.team-section {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.team-section img {
+    border-radius: 50%;
+    max-width: 180px;
+    height: 180px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+    border: 4px solid #16a085;
+    margin-bottom: 1.5rem;
+}
+
+
+.team-section img:hover {
+    transform: scale(1.1);
+}
+
+.team-name {
+    font-size: 1.5rem;
+    color: #16a085;
+    margin-top: 1rem;
+}
+
+.team-role {
+    font-size: 1.1rem;
+    color: #7f8c8d;
+}
+
+@media (max-width: 576px) {
+    .team-section img {
+        max-width: 150px;
+        height: 150px;
+    }
+}
+
+
+.team-section img {
+    border-radius: 50%;
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.team-section img:hover {
+    transform: scale(1.1);
+}
+
+.team-name {
+    font-size: 1.5rem;
+    color: #16a085;
+    margin-top: 1rem;
+}
+
+.team-role {
+    font-size: 1.1rem;
+    color: #7f8c8d;
+}
+
+/* Media Queries */
+@media (max-width: 992px) {
+    .luxury-card {
+        padding: 1.5rem;
+    }
+
+    .core-values {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .team-section .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .team-section .col-md-4 {
+        margin-bottom: 2rem;
+    }
+
+    .parallax-header .display-4 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .luxury-card {
+        padding: 1rem;
+    }
+
+    .parallax-header .display-4 {
+        font-size: 2rem;
+    }
+
+    .parallax-header .lead {
+        font-size: 1rem;
+    }
+
+    .section-title,
+    .elegant-title {
+        font-size: 1.5rem;
+    }
+
+    .team-name {
+        font-size: 1.2rem;
+    }
+
+    .team-role {
+        font-size: 1rem;
+    }
+}
