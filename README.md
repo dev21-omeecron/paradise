@@ -47,6 +47,7 @@ Palm Paradise Hotel Management System is a comprehensive web-based application d
   - AdminLTE 3 Dashboard Template
   - ApexCharts for data visualization
   - DataTables for dynamic tables
+  - mPDF for Invoice PDFs
   - Font Awesome for icons
 
 - **Backend**:
