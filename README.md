@@ -103,15 +103,15 @@ Palm Paradise Hotel Management System is a comprehensive web-based application d
    - Invoice Generation
 
 5. **Admin Dashboard**
-
+6. 
+   - Fully Dynamic multiple feature-based Dashboard
    - Total revenue tracking
    - Booking statistics
    - User management
    - Monthly trends visualization
    - Recent bookings overview
 
-6. **User Dashboard**
-   - Fully Dynamic multiple feature-based Dashboard
+7. **User Dashboard**
    - Personal booking history
    - Upcoming reservations
    - Booking status tracking
